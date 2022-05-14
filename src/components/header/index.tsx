@@ -1,12 +1,18 @@
-
-import logoImg from '../../asstes/logo.svg'
-
+import '../../styles/header.css'
+import logoImg from '../../assets/logo.svg'
 
 export function Header() {
     return (
-      <header> 
-       <img src="{logoImg}" alt="dt money"/>
-       <button>Nova Transação</button>
+      <header className='container'> 
+        
+       <div className='content'> 
+       <img src= {logoImg} alt="dt money"/>
+       <button type="button">Nova Transaçãol</button>
+       </div>
+      
+       
+     
+      
       </header>
     )
 }

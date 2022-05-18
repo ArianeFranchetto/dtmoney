@@ -1,0 +1,37 @@
+:root {
+    --background: #f8f2f5;
+    --red: #E41E4D;
+    --blue: #5429CC;
+    --blue-light: #6933FF;
+    --text-title: #363F5F;
+    --text-body: #969CB3;
+    --shape: #FFFFF;
+    }
+
+.container-summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-top: -10rem;
+}
+
+.div-summary {
+   background-color: var(--shape);
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    color: var(--text-title);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+strong {
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    display: block;
+
+}

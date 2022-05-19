@@ -1,0 +1,57 @@
+:root {
+    --background: #f8f2f5;
+    --red: #E41E4D;
+    --blue: #5429CC;
+    --blue-light: #6933FF;
+    --text-title: #363F5F;
+    --text-body: #49568a;
+    --shape: #FFFFF;
+    --green:  #4aa47b;
+    }
+
+.dash-container {
+    margin-top: 4rem;
+   
+
+}
+
+table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+
+ 
+
+}
+
+th {
+    color: var(--text-body);
+    font-weight: 400;
+    padding: 1rem 2rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+td {
+    padding: 1rem 2rem;
+    border: 0;
+    background: var(--shape);
+    color: var(--text-body);
+    border-radius: 00.25rem;
+    
+    
+
+
+}
+
+.title {
+    color: var(--text-title);
+    font-weight: 500;
+}
+
+.deposit {
+    color: var(--green);
+}
+
+.withdraw {
+    color: var(--red);
+}
